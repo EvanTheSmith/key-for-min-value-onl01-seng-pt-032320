@@ -3,7 +3,6 @@
 
 def key_for_min_value(name_hash)
   first_run=0
-  the_key="before_key"
 
   name_hash.each do |key,value|
     if first_run=0
