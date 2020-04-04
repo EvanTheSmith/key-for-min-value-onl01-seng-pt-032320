@@ -3,7 +3,6 @@
 
 def key_for_min_value(name_hash)
   first_run = true
-  lowest = 0
   the_key = nil
 
   name_hash.each do |key, value|
